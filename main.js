@@ -4,12 +4,12 @@ let precio = 0;
 
 class Pedido {
     constructor(vino, precio, cantidad){
-        this.vino = vino,
-        this.precio = precio,
-        this.cantidad = cantidad,
-        this.envio = 0,
-        this.subTotal = 0,
-        this.total = 0
+        this.vino = vino;
+        this.precio = precio;
+        this.cantidad = cantidad;
+        this.envio = 0;
+        this.subTotal = 0;
+        this.total = 0;
     }
 
     calcularSubTotal() {
