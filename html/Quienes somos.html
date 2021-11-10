@@ -11,37 +11,47 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../style.css">
-   </head>
+</head>
 
 <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anónimo"> </script>
 
 <body>
     <header class="header">
-     <div> <a href="../index.html"><img class="header__logo" src="../assets/Wine Mendoza.png" alt="logo"></a></div>
-       
-        <h1 class="header__titulo">Quines Somos</h1>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadowNav">
+            <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../assets/Wine Mendoza.png" class="header__logo" alt="Logo">
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav header__nav">
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link header__navMenu--texto" href="../index.html">INICIO</a>
+                            <a class="nav-link" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active  header__navMenu--texto" aria-current="page"
-                                href="../html/Empresa.html">QUINES SOMOS</a>
+                            <a class="nav-link" href="../html/Quienes somos.html">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link header__navMenu--texto" href="../html/formulario.html">CONTACTO</a>
-                        </li>
+                            <a class="nav-link" href="../html/formulario.html">Contacto</a>
                         </li>
                     </ul>
+                </div>
+
+                <div class="navbar-nav">
+                    <div class="d-flex justify-content-center mt-3">
+                        <a type="button" data-toggle="modal" data-target="#cartModal">
+                            <img class="img-fluid cartImg" src="../assets/cart.png" alt="cart"></i>
+                        </a>
+                        <div id="cartNumbers">
+                            <span class="fw-bold text-white" id="cart-counter">0</span>
+                            <!--JS / Cart Counter-->
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -53,25 +63,9 @@
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         <p class="section__parrafo">
-            GroupTV hd, un nuevo proveedor de producción móvil, ha lanzado sus servicios en Mendoza, Argentina. Su
-            primer camión debutó equipado con cinco sistemas de cámaras CMOS portátiles Full Digital HDTV HDTV de
-            Ikegami.
-
-            Fundada por Gustavo y Maximiliano Iriart, la unidad móvil de GroupTV es un camión de 9,5 metros (31 pies)
-            que presta servicios de entretenimiento en vivo y eventos deportivos en Argentina y Chile. Entre otros
-            aspectos destacados, una parada importante para Plasma TV incluirá el World Wide Soccer Game en Brasil.
-            Además de las cinco cámaras Ikegami HDK-95C que ya están a bordo, se agregarán tres HDK-95C adicionales al
-            inventario de televisores de plasma en los próximos meses. También está presente un enrutador Grass Valley,
-            junto con un servidor de video en cámara lenta Orad PlayMaker.
-
-            Como parte de la línea UnicamHD de Ikegami, la cámara digital portátil HDK-95C HD está equipada con sensores
-            CMOS nativos multiformato de 2,5 millones de píxeles y 2/3 pulgadas. También cuenta con una ruta de
-            actualización a formatos 24p y 3G, incluidos 1080 / 60p y 4: 4: 4 24p.
-
-            Además, la versatilidad es un componente clave del diseño del HDK-95C: proporciona procesamiento digital de
-            extremo a extremo, cuenta con un cabezal de cámara de acoplamiento de bajo perfil para aplicaciones de
-            fibra, triaxial o inalámbricas.
-
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iure natus saepe! Nam voluptatibus,
+            tempora ad debitis repellat adipisci tenetur omnis quae quas consequuntur rerum. Doloribus suscipit rerum
+            libero repudiandae.
 
         </p>
 
@@ -111,7 +105,7 @@
         <img class="footer__logo" src="../assets/Wine Mendoza.png" alt="logo">
 
         <div class="footer__redes">
-            <a href="#"  > <img src="../assets/Redes/3721672-instagram_108066.png" alt="instagram"></a>
+            <a href="#"> <img src="../assets/Redes/3721672-instagram_108066.png" alt="instagram"></a>
             <a href="#"><img src="../assets/Redes/social_facebook_box_blue_256_30649.png" alt="facebook"></a>
         </div>
         <div class="footer__copy">&#169 2021. Wine Mendoza, todos los derechos reservados</div>
